@@ -1,4 +1,4 @@
-package cn.smbms.mapper;
+package cn.smbms.dao;
 
 import cn.smbms.pojo.Role;
 

@@ -1,6 +1,6 @@
 package cn.smbms.service.bill;
 
-import cn.smbms.mapper.BillMapper;
+import cn.smbms.dao.BillMapper;
 import cn.smbms.pojo.Bill;
 import org.springframework.stereotype.Service;
 

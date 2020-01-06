@@ -1,6 +1,6 @@
 package cn.smbms.service.user;
 
-import cn.smbms.mapper.UserMapper;
+import cn.smbms.dao.UserMapper;
 import cn.smbms.pojo.User;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
 package cn.smbms.service.role;
 
-import cn.smbms.mapper.RoleMapper;
+import cn.smbms.dao.RoleMapper;
 import cn.smbms.pojo.Role;
 import org.springframework.stereotype.Service;
 
@@ -18,7 +18,6 @@ public class RoleServiceImpl implements RoleService{
 		try {
 			roleList = roleMapper.getRoleList();
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return roleList;

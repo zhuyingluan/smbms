@@ -22,7 +22,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
-@Controller
+@RestController
 public class UserController {
     @Resource
     private UserService userService;

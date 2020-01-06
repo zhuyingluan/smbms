@@ -1,7 +1,7 @@
 package cn.smbms.service.provider;
 
-import cn.smbms.mapper.BillMapper;
-import cn.smbms.mapper.ProviderMapper;
+import cn.smbms.dao.BillMapper;
+import cn.smbms.dao.ProviderMapper;
 import cn.smbms.pojo.Provider;
 import org.springframework.stereotype.Service;
 

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.smbms.mapper.BillMapper">
+<mapper namespace="cn.smbms.dao.BillMapper">
     <insert id="addBill" parameterType="Bill">
         insert into smbms_bill
         (billCode,productName,productDesc,productUnit,productCount,totalPrice,
